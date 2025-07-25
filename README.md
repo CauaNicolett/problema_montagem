@@ -7,8 +7,8 @@ Programa do ktns: ktns.c\
 \
 Compile o arquivo heuristica_completa.c\
 gcc heuristica_completa.c -o heur\
-(gera um arquivo executável chamado "heur").\
-
+(gera um arquivo executável chamado "heur"). 
+\
 Considere matrizes binárias em que cada linha representa uma tarefa e em que cada coluna representa uma ferramenta.\
 O elemento da i-ésima linha e j-ésima coluna é 1 se a j-ésima ferramenta é usada na i-ésima tarefa, e 0 caso contrário.\
 \
@@ -21,8 +21,8 @@ quarta entrada: capacidade do magazine.\
 Exemplo: suponha que o executável esteja na mesma pasta que o programa em C.\
 A matriz do caso teste e1(8x15)c5 tem 8 linhas, 15 colunas e a capacidade do magazine é 5.\
 Então, rode\
-./heur 'casos_teste/e1(8x15)c5' 8 15 5\
-
+./heur 'casos_teste/e1(8x15)c5' 8 15 5 
+\
 O programa gera arquivos diferentes para o resultado final da matriz binária com linhas permutadas, para a sequência final das tarefas e para uma matriz os estados do magazine, em que a primeira linha indica as ferramentas na estação para a primeira tarefa, em que a segunda linha indica as ferramentas para a segunda tarefa e etc.
 No terminal também são mostradas as quantidades de movimento feitas com a solução encontrada.\
 \
