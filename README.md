@@ -7,7 +7,8 @@ Programa do ktns: ktns.c\
 \
 Compile o arquivo heuristica_completa.c\
 gcc heuristica_completa.c -o heur\
-(gera um arquivo executável chamado "heur"). \ 
+(gera um arquivo executável chamado "heur").
+\
 \
 Considere matrizes binárias em que cada linha representa uma tarefa e em que cada coluna representa uma ferramenta.\
 O elemento da i-ésima linha e j-ésima coluna é 1 se a j-ésima ferramenta é usada na i-ésima tarefa, e 0 caso contrário.\
