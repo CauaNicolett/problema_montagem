@@ -5,8 +5,13 @@ Programa da heurística construtiva: heuristica.c\
 Programa da heurística construtiva com ILS: heuristica_completa.c\
 Programa do ktns: ktns.c\
 \
-Compile o arquivo heuristica_completa.c\
-gcc heuristica_completa.c -o heur\
+Compile o arquivo heuristica_completa.c
+\
+\
+comando:\
+gcc heuristica_completa.c -o heur
+\
+\
 (gera um arquivo executável chamado "heur").
 \
 \
@@ -24,6 +29,7 @@ A matriz do caso teste e1(8x15)c5 tem 8 linhas, 15 colunas e a capacidade do mag
 Então, rode
 \
 \
+comando:\
 ./heur 'casos_teste/e1(8x15)c5' 8 15 5   
 \
 \
